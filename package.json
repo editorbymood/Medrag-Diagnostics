@@ -53,9 +53,9 @@
   },
   "scripts": {
     "start": "vite",
-    "build": "vite build --sourcemap",
-    "serve": "vite preview"
+    "build": "vite build --outDir=dist --sourcemap"    
   },
+  
   "eslintConfig": {
     "extends": [
       "react-app",
